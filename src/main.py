@@ -57,7 +57,7 @@ def func(data, context):
 
         tn = t.table_id
 
-        if tn not in ['OtherAssay','ExSeqMinimal'] and 'Auxiliary' not in tn and 'Level' not in tn:
+        if tn not in ['OtherAssay','ExSeqMinimal'] and 'Auxiliary' not in tn and 'Level' not in tn and 'Xenium' not in tn:
             continue
 
         else:
